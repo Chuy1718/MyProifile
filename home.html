@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home del proyecto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="./script.js"></script>
+
+<ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="./datosG.html">Datos generales</a></li>
+    <li><a href="./acercaDmi.html">Acerca de mi</a></li>
+    <li><a href="#contact">Mi profesion</a></li>
+  </ul>
+  <img class="imgH" src="imgs/progra.jpg">
+  <h1 class="acercaD">Servicios que ofrezco</h1>
+
+  <div class="flex-container">
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <h3>Desarrollo de paginas web</h3>
+      <p><b>Precio:</b> $5,000</b></p> 
+      <p><b>Descripcion:</b> Te ofrezco una lista de diseños para tu pagina web
+        de los cuales tu decides el que mas te convenga y lo negociamos para comenzar a trabajar en ello.</b></p>   
+        <div><button id="button" >Cotizar Servicio</div></button>
+     
+      </div>
+    </div>
+<script>
+    document.getElementById('button').onclick = function(){
+      alert('Vamos a cotizar el servicio!');
+  }
+</script>
+   
+    <div class="column">
+      <div class="card">
+        <h3>Asesoramiento para tu negocio online</h3>
+        <p><b>Precio:</b> $1500</b></p> 
+      <p><b>Descripcion:</b> Te brindamos el mejor acesoramiento desde el inicio de tiu negocio online hasta que estes en este maravilloso mundo.</p>   
+      <div><button id="button1">Cotizar Servicio</div></button>
+    </div>
+    </div>
+    <script>
+      document.getElementById('button1').onclick = function(){
+        alert('Buena opcion!');
+    }
+  </script> 
+
+    <div class="column">
+      <div class="card">
+        <h3>Diseño UI</h3>
+        <p><b>Precio:</b> $3000</b></p> 
+      <p><b>Descripcion:</b>Te mostramos buenos diseños que aran sentir comodos y facil al momento de usarse para que tus clientes no tengan problema con el sistema.</p>  
+      <div><button id="button2">Cotizar Servicio</div></button>  
+    </div>
+    </div>
+    <script>
+      document.getElementById('button2').onclick = function(){
+        alert('Vamos a diseñar tu pagina!');
+    }
+  </script>
+
+    <div class="column">
+      <div class="card">
+        <h3>Diseño UX</h3>
+        <p><b>Precio:</b> $400</b></p> 
+        <p><b>Descripcion:</b>Realizamos una serie de pruebas a tu sistema y te corregimos todos posibles errores que pudieran hacer que falle el sistema.</b></p>  
+        <div><button id="button3">Cotizar Servicio</div></button>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById('button3').onclick = function(){
+      alert('Manos a la obra!');
+  }
+</script>
+
+  <div class="column">
+    <div class="card">
+      <h3>Todo lo anterior junto</h3>
+      <p><b>Precio:</b> $10,00</b></p> 
+      <p><b>Descripcion:</b>Se te ofrece todo el paquete de nuestros servicios con una maravilloso precio y una exelente calida mas un garantia de un tiempo en el cual te respondemos cualquier error o falla que pudieran surgir.</b></p>  
+      <div><button id="button4">Cotizar</div></button>
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById('button4').onclick = function(){
+    alert('La mejor eleccion sin duda!');
+}
+</script>
+<hr>
+<h2 class="com">Comentarios</h2>
+<hr>
+<div class="form">
+<form>
+<textarea>Escribe tu comentario...</textarea>
+</form>
+<br>
+<form>
+  <label for="fname">Tu nombre</label>
+  <input type="text" id="name" name="name">
+  <label for="lname">Tu email</label>
+  <input type="text" id="email" name="email">
+</form> 
+
+<div class="sub">
+  <input type="submit" onclick="openWin()" value="Submit">
+</div>
+</div>
+<br>
+<footer>
+  <p>Author: Jose de Jesus Flores Ruvalcaba<br>
+  <p>Ing. Desarrollo de Software Multiplataforma</p>
+  <p>Aguascalientes, Ags.</p>
+  <a href="pepe_22chaneja@gmail.com">ElChuy@Flores</a></p>
+</footer>
+
+</body>
+</html>
+
+
+
